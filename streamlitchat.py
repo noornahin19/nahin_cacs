@@ -2,7 +2,7 @@ import streamlit as st
 a=st.chat_input("enter your command")
 if a: 	
 	st.chat_message("user").write(a)
-	if a.lower()== "hi"||"hello":
+	if a.lower()== "hi":
 		st.chat_message("ai").write("Bot: Hello! Nice to meet you.")
 	elif a.lower()== "how are you":
 		st.chat_message("ai").write("Bot: I am fine. Thank you for asking!")
