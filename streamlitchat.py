@@ -1,5 +1,5 @@
 import streamlit as st
-a=st.chat_input("enter your command")
+a=st.chat_input("enter your command or see you again")
 if a: 	
 	st.chat_message("user").write(a)
 	if a.lower()== "hi":
